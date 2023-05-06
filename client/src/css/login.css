@@ -1,0 +1,41 @@
+
+.login{
+   
+}
+.login-btn{
+    width:100%;
+
+    padding:5px;
+
+
+}
+.login-btn>button{
+    width:100%;
+    margin:4px 0px;
+    border:none;
+
+    padding:10px 6px;
+    border-radius:5px;
+    font-size:11px;
+    color:white;
+    background: rgb(90,83,207);
+    background: linear-gradient(90deg, rgba(90,83,207,1) 0%, rgba(129,129,255,1) 35%, rgba(0,212,255,1) 100%);
+  
+
+}
+.login-btn>button:nth-child(2){
+  
+    background: rgb(207,83,112);
+    background: linear-gradient(90deg, rgba(207,83,112,1) 0%, rgb(250, 86, 86) 31%, rgb(255, 57, 57) 100%);
+}
+
+/* login-input-container */
+
+.login-input-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:5px;
+   
+}
